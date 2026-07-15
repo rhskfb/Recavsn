@@ -32,7 +32,7 @@ load_dotenv()
 
 # ==================== CONFIG ====================
 class Config:
-    BOT_TOKEN = os.getenv("8793482183:AAEaY4MKp_-CCURz3OK3cnJ-Av8f4MVSmDQ")
+    BOT_TOKEN = os.getenv("8793482183:AAFVOuHdK16WeN5fRM32cJ8XdyTE_zGfNDg")
     OWNER_ID = int(os.getenv("8793482183", 0))
     DB_PATH = os.getenv("panel.db", "panel.db")
     ADMIN_IDS = [int(x.strip()) for x in os.getenv("8793482183", "").split(",") if x.strip()]
