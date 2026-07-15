@@ -32,10 +32,10 @@ load_dotenv()
 
 # ==================== CONFIG ====================
 class Config:
-    BOT_TOKEN = os.getenv("BOT_TOKEN")
-    OWNER_ID = int(os.getenv("OWNER_ID", 0))
-    DB_PATH = os.getenv("DB_PATH", "panel.db")
-    ADMIN_IDS = [int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
+    BOT_TOKEN = os.getenv("8793482183:AAEaY4MKp_-CCURz3OK3cnJ-Av8f4MVSmDQ")
+    OWNER_ID = int(os.getenv("8793482183", 0))
+    DB_PATH = os.getenv("panel.db", "panel.db")
+    ADMIN_IDS = [int(x.strip()) for x in os.getenv("8793482183", "").split(",") if x.strip()]
     
     # Branding
     BRAND = "REZA GROOTZ"
